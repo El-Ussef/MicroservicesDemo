@@ -17,8 +17,7 @@ builder.Services.AddAuthorizationBuilder();
 builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlite("DataSource=myApp.db"));
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
-    .AddDefaultTokenProviders()
-    .AddApiEndpoints();
+    .AddDefaultTokenProviders();
 
 builder.Services.AddScoped<IJwtTokenHelper, JwtTokenHelper>();
 builder.Services.AddScoped<IAuthService, AuthService>();

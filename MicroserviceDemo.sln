@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurchaseManagementApi", "Pu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServiceApi", "IdentityServiceApi\IdentityServiceApi.csproj", "{7308CA27-3D02-464B-8B6A-EE845B118F0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingContract", "MessagingContract\MessagingContract.csproj", "{0C663876-A9C0-4DAE-96C8-EB321DE9AAD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{7308CA27-3D02-464B-8B6A-EE845B118F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7308CA27-3D02-464B-8B6A-EE845B118F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7308CA27-3D02-464B-8B6A-EE845B118F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C663876-A9C0-4DAE-96C8-EB321DE9AAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C663876-A9C0-4DAE-96C8-EB321DE9AAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C663876-A9C0-4DAE-96C8-EB321DE9AAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C663876-A9C0-4DAE-96C8-EB321DE9AAD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
